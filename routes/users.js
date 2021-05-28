@@ -9,19 +9,9 @@ const router = express.Router();
 
 let users =[
 
-    // {
-    //     firstName : "John",
-    //     lastName : "Doe",
-    //     age : 25
-    // },
-    // {
-    //     firstName:"Jane",
-    //     lastName:"Doe",
-    //     age:24
-    // }
+  
 ]
 
-//All routes here are starting with /users
 router.get('/',(req,res)=>{
     
     res.send(users)
